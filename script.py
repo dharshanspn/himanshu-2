@@ -26,7 +26,7 @@ def telegram_bot_sendques (bot_message):
 #variables
 sub = "Ankit Calculus"
 username = "himanshubhardwaj528500@gmail.com"
-password = ""
+password = "p0lin528500@D"
 login_text= f"{sub} Logged in"
 limit_texts = f"Limit hit {sub}"
 flag = True
@@ -63,7 +63,6 @@ while flag:
         telegram_bot_sendtext(f"Password {sub}")
 
 telegram_bot_sendtext(login_text)
-telegram_bot_sendques(login_text)
 
 # Navigate to the authoring page
 driver.get("https://expert.chegg.com/qna/authoring/answer")
