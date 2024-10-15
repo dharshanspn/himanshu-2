@@ -24,9 +24,9 @@ def telegram_bot_sendques (bot_message):
     return response.json()
 
 #variables
-sub = "Vikas Calculus"
-username = "himanshubhardwajsunny@gmail.com"
-password = "p0lin528500@D"
+sub = "Ankit Calculus"
+username = "himanshubhardwaj528500@gmail.com"
+password = ""
 login_text= f"{sub} Logged in"
 limit_texts = f"Limit hit {sub}"
 flag = True
